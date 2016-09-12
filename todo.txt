@@ -1,0 +1,13 @@
+Minimum Marketing Features:
+- marketing home page
+- collaborative painting page(very basic)
+
+User Stories:
+- "hello world" server
+- "hello world" client
+
+Engineering Tasks:
+- automated build
+- continuous integration
+- server-side testing
+- client-side testing
