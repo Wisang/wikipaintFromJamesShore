@@ -1,3 +1,7 @@
+task("default", [], function () {
+    console.log("is default running?");
+});
+
 desc("Example!");
 task("example", ["dependency"], function () {
     console.log("testing jake");
