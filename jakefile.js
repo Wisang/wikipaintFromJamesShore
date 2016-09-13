@@ -35,8 +35,7 @@
         files.exclude("node_modules");
         files.exclude("build/lint/_lint_runner_test.js");
         //var options = nodeLintOptions();
-        lint.validateFileList(files.toArray(), nodeLintOptions(), {});
+        var passed = lint.validateFileList(files.toArray(), nodeLintOptions(), {});
+        if(!passed) fail("lint failed");
     });
-
-
 }());
