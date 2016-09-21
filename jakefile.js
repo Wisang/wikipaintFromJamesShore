@@ -38,4 +38,15 @@
         var passed = lint.validateFileList(files.toArray(), nodeLintOptions(), {});
         if(!passed) fail("lint failed");
     });
+
+    desc("Integrate");
+    task("Integrate", ["default"], function () {
+        console.log("Make sure Git Status is clean");
+        console.log("build");
+        console.log("if jake fails, Stop & Try again");
+        console.log("push to Master");
+        console.log("checkout");
+
+    });
+
 }());
