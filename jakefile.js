@@ -41,10 +41,15 @@
 
     desc("Integrate");
     task("Integrate", ["default"], function () {
-        console.log("Make sure Git Status is clean");
-        console.log("build");
+        console.log("jake at master");
         console.log("if jake fails, Stop & Try again");
-        console.log("git checkout integration --no-ff --log");
+        console.log("commit and push");
+        console.log("Make sure Git Status is clean");
+        console.log("git checkout integration");
+        console.log("git merge master  --no-ff --log");
+        console.log("jake");
+        console.log("if jake fails, Stop & Try again");
+        console.log("git checkout master");
 
         // console.log("push to Master");
         // console.log("checkout");
