@@ -44,8 +44,10 @@
         console.log("Make sure Git Status is clean");
         console.log("build");
         console.log("if jake fails, Stop & Try again");
-        console.log("push to Master");
-        console.log("checkout");
+        console.log("git checkout integration --no-ff --log");
+
+        // console.log("push to Master");
+        // console.log("checkout");
 
     });
 
